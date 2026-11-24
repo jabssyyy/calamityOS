@@ -1,0 +1,8 @@
+.evidence-desk{box-sizing:border-box;width:min(650px,94vw);max-height:90dvh;padding:26px;color:#e8f0e9;background:#13201d;border:1px solid #43574e;border-radius:16px;box-shadow:0 32px 95px #0009;font:15px/1.5 system-ui,sans-serif}
+.evidence-desk::backdrop{background:#07100cbd;backdrop-filter:blur(4px)}
+.evidence-desk header,.evidence-desk footer,.ev-actions,.ev-officers{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.evidence-desk h2{font-size:30px;margin:2px 0}.evidence-desk small{color:#c4e894;letter-spacing:.12em}.evidence-desk p,.evidence-desk footer span{color:#bac9c0}
+.evidence-desk label{display:block;font-size:13px;font-weight:600}.evidence-desk textarea,.ev-officers input{box-sizing:border-box;display:block;width:100%;margin:5px 0 10px;border:1px solid #54695f;color:#eef3ee;background:#101b17;padding:10px;border-radius:6px;font:inherit}
+.evidence-desk button,.ev-file{cursor:pointer;color:inherit;font:inherit;padding:8px 12px;border:1px solid #53685e;border-radius:6px;background:#22332c}.evidence-desk button:disabled{cursor:default;opacity:.65}.ev-file input{display:none}.ev-actions{justify-content:flex-start}.evidence-desk .ev-close{font-size:24px;line-height:1}
+.ev-fields{margin:14px 0}.evidence-desk .ev-row{display:flex;justify-content:space-between;gap:15px;text-align:left;width:100%;border:0;border-bottom:1px solid #35483f;border-radius:0;background:none;padding:9px 0}.ev-row span{color:#c0cdbe}.ev-officers label{flex:1;min-width:0}.evidence-desk .ev-save{background:#c7ef95;color:#152016;font-weight:bold}.evidence-desk footer{margin-top:12px}
+@media(max-width:500px){.ev-row,.evidence-desk footer{flex-direction:column;align-items:flex-start}}
